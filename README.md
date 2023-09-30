@@ -1,1 +1,5 @@
-# creativeCoefficient
+# Run tests
+
+```
+node file.js
+```

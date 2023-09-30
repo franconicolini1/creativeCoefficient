@@ -1,0 +1,49 @@
+User Story:
+
+    - As an authenticated user I want to be able to change my password so that I can change my password for security purposes.
+
+
+Assumptions:
+
+    - The user is already logged in.
+
+
+Requirements:
+
+
+1) Password Minimum Requirements Tooltip:
+    When the user hovers over an information icon next to the password input field, display a tooltip showing the minimum password requirements.
+
+2) Toggle Password Visibility:
+    When the user clicks an eye icon next to the password input field, toggle the visibility of the password input content along with the icon.
+
+3) Disable Submit Button:
+    The "Submit" button must remain disabled until all input fields are valid, including meeting the minimum password requirements.
+
+4) Password Change Request:
+    When the user clicks the "Submit" button (if enabled), send a request to the server to change the password.
+
+5) Failed password change:
+    Upon successful password change, redirect the user to the home page.
+
+6) Failed password change:
+    If the password change request fails, display an error message using the toast/snack bar component.
+
+
+Errors:
+
+1) If non-authenticated users attempt to access this page, automatically redirect them to the login page.
+
+2) If the user focus on an input, then unfocus, and the value is incorrect, implement the following:
+    - Highlight the invalid input with a red border.
+    - Display an error message indicating the specific error.
+
+
+User profiles:
+
+All user profiles.
+
+
+Estimated time:
+
+The estimated time for completing this task, including development and testing, is six hours.
